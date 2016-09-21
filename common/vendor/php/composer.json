@@ -1,0 +1,8 @@
+{
+  "require": {
+    "ringcentral/ringcentral-php": "0.5.0",
+    "twilio/sdk": "4.3.0",
+    "contextio/php-contextio-lite": "dev-master",
+    "guzzlehttp/guzzle": "6.1.0"
+  }
+}

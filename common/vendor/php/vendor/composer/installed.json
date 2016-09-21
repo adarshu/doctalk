@@ -1,0 +1,537 @@
+[
+    {
+        "name": "phpseclib/phpseclib",
+        "version": "0.3.10",
+        "version_normalized": "0.3.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phpseclib/phpseclib.git",
+            "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+            "reference": "d15bba1edcc7c89e09cc74c5d961317a8b947bf4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "phing/phing": "~2.7",
+            "phpunit/phpunit": "~4.0",
+            "sami/sami": "~2.0",
+            "squizlabs/php_codesniffer": "~1.5"
+        },
+        "suggest": {
+            "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+            "ext-mcrypt": "Install the Mcrypt extension in order to speed up a wide variety of cryptographic operations.",
+            "pear-pear/PHP_Compat": "Install PHP_Compat to get phpseclib working on PHP < 4.3.3."
+        },
+        "time": "2015-01-28 21:50:33",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Crypt": "phpseclib/",
+                "File": "phpseclib/",
+                "Math": "phpseclib/",
+                "Net": "phpseclib/",
+                "System": "phpseclib/"
+            },
+            "files": [
+                "phpseclib/Crypt/Random.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "include-path": [
+            "phpseclib/"
+        ],
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jim Wigginton",
+                "email": "terrafrost@php.net",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Patrick Monnerat",
+                "email": "pm@datasphere.ch",
+                "role": "Developer"
+            },
+            {
+                "name": "Andreas Fischer",
+                "email": "bantu@phpbb.com",
+                "role": "Developer"
+            },
+            {
+                "name": "Hans-Jürgen Petrich",
+                "email": "petrich@tronic-media.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+        "homepage": "http://phpseclib.sourceforge.net",
+        "keywords": [
+            "BigInteger",
+            "aes",
+            "asn.1",
+            "asn1",
+            "blowfish",
+            "crypto",
+            "cryptography",
+            "encryption",
+            "rsa",
+            "security",
+            "sftp",
+            "signature",
+            "signing",
+            "ssh",
+            "twofish",
+            "x.509",
+            "x509"
+        ]
+    },
+    {
+        "name": "pubnub/pubnub",
+        "version": "v3.7.9",
+        "version_normalized": "3.7.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pubnub/php.git",
+            "reference": "fee508e7271cd5c944a73c505fb8d9d540d69f35"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pubnub/php/zipball/fee508e7271cd5c944a73c505fb8d9d540d69f35",
+            "reference": "fee508e7271cd5c944a73c505fb8d9d540d69f35",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpdocumentor/phpdocumentor": "dev-master",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2015-07-24 11:09:26",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Pubnub\\": "composer/lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dmitry Medvedev",
+                "email": "gektor1@gmail.com"
+            },
+            {
+                "name": "Victor Kislichenko",
+                "email": "dofer@bigmir.net"
+            },
+            {
+                "name": "PubNub Support",
+                "email": "support@pubnub.com"
+            }
+        ],
+        "description": "The Only Global Network For Real-Time Data -- PubNub!",
+        "homepage": "http://www.pubnub.com/",
+        "keywords": [
+            "ajax",
+            "api",
+            "push",
+            "real time",
+            "real-time",
+            "realtime"
+        ]
+    },
+    {
+        "name": "ringcentral/ringcentral-php",
+        "version": "0.5.0",
+        "version_normalized": "0.5.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ringcentral/ringcentral-php.git",
+            "reference": "92ee0459bbba87e9235fad61882a468bf8dc63b2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ringcentral/ringcentral-php/zipball/92ee0459bbba87e9235fad61882a468bf8dc63b2",
+            "reference": "92ee0459bbba87e9235fad61882a468bf8dc63b2",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3.0",
+            "phpseclib/phpseclib": "~0.3",
+            "pubnub/pubnub": "~3.7"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2015-07-27 22:03:04",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "RingCentral\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kirill Konshin",
+                "email": "kirill.konshin@ringcentral.com"
+            },
+            {
+                "name": "RingCentral, Inc.",
+                "email": "devsupport@ringcentral.com"
+            }
+        ],
+        "description": "RingCentral Connect Platform PHP SDK",
+        "homepage": "http://developers.ringcentral.com",
+        "keywords": [
+            "api",
+            "connect",
+            "php",
+            "platform",
+            "ringcentral",
+            "sdk"
+        ]
+    },
+    {
+        "name": "twilio/sdk",
+        "version": "4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twilio/twilio-php.git",
+            "reference": "9b83e2f1c480e3fb4e05a833b325c5afa43520fb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twilio/twilio-php/zipball/9b83e2f1c480e3fb4e05a833b325c5afa43520fb",
+            "reference": "9b83e2f1c480e3fb4e05a833b325c5afa43520fb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.1"
+        },
+        "require-dev": {
+            "mockery/mockery": ">=0.7.2",
+            "phpunit/phpunit": "4.5.*"
+        },
+        "time": "2015-08-11 17:19:55",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Services/Twilio.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Burke",
+                "email": "kevin@twilio.com"
+            },
+            {
+                "name": "Kyle Conroy",
+                "email": "kyle+pear@twilio.com"
+            }
+        ],
+        "description": "A PHP wrapper for Twilio's API",
+        "homepage": "http://github.com/twilio/twilio-php",
+        "keywords": [
+            "api",
+            "sms",
+            "twilio"
+        ]
+    },
+    {
+        "name": "contextio/php-contextio-lite",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/contextio/PHP-Lite-ContextIO.git",
+            "reference": "0d11da3bf061207649a7969faa4a1d24774b42ef"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/contextio/PHP-Lite-ContextIO/zipball/0d11da3bf061207649a7969faa4a1d24774b42ef",
+            "reference": "0d11da3bf061207649a7969faa4a1d24774b42ef",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-09-15 19:12:53",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "class.contextio.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Tony Blank"
+            }
+        ],
+        "description": "PHP Client Library for Context.IO Lite API",
+        "homepage": "http://context.io/",
+        "keywords": [
+            "contextio",
+            "imap"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "97fe7210def29451ec74923b27e552238defd75a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/97fe7210def29451ec74923b27e552238defd75a",
+            "reference": "97fe7210def29451ec74923b27e552238defd75a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-08-15 19:37:21",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2015-05-04 20:22:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
+            "reference": "4ef919b0cf3b1989523138b60163bbcb7ba1ff7e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2015-08-15 19:32:36",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "PSR-7 message implementation",
+        "keywords": [
+            "http",
+            "message",
+            "stream",
+            "uri"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.1.0",
+        "version_normalized": "6.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "66fd14b4d0b8f2389eaf37c5458608c7cb793a81"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/66fd14b4d0b8f2389eaf37c5458608c7cb793a81",
+            "reference": "66fd14b4d0b8f2389eaf37c5458608c7cb793a81",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "~1.0",
+            "guzzlehttp/psr7": "~1.1",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "~4.0",
+            "psr/log": "~1.0"
+        },
+        "time": "2015-09-08 17:36:26",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    }
+]
