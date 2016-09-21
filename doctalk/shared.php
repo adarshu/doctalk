@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . "/common/includes/util_inc.php");
+require_once("/common/includes/util_inc.php");
 
 function getUsers()
 {
