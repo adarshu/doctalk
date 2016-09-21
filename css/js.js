@@ -13,13 +13,13 @@ function toggleView(menuState) {
 }
 
 function loadUsersMenu() {
-    $.getJSON("/doctalk/api.php?a=users", function (data) {
+    $.getJSON("/api.php?a=users", function (data) {
         $(".lv-user").html(data.html);
     });
 }
 
 function loadMsgsForUser(pid, doFunc) {
-    $.getJSON("/doctalk/api.php?a=msgs&pid=" + pid, function (data) {
+    $.getJSON("/api.php?a=msgs&pid=" + pid, function (data) {
         $(".lv-body").html(data.html);
         $(".lvh-label").html(data.top);
         doFunc();
@@ -71,7 +71,7 @@ $(document).ready(function () {
     $(document).on('click', '#send-chat', function () {
         var msg = $("#chat-message").val();
         var pid = $(".top-avatar").attr("data-pid");
-        $.getJSON("/doctalk/api.php?a=postmsg&pid=" + pid + "&msg=" + encodeURIComponent(msg), function (data) {
+        $.getJSON("/api.php?a=postmsg&pid=" + pid + "&msg=" + encodeURIComponent(msg), function (data) {
             $("#chat-message").val('');
             $(".lv-body").html(data.html);
             $(".lv-body").scrollTop($(".lv-body")[0].scrollHeight);

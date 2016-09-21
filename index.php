@@ -1,5 +1,5 @@
 <?php
-require_once("../common/includes/util_inc.php");
+require_once("common/includes/util_inc.php");
 require_once("shared.php");
 ?>
 <html lang="en">
@@ -8,9 +8,9 @@ require_once("shared.php");
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>DocTalk</title>
-    <link href="/doctalk/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/doctalk/css/messsages.css" rel="stylesheet">
-    <link href="/doctalk/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/messsages.css" rel="stylesheet">
+    <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container-fluid">
@@ -19,13 +19,15 @@ require_once("shared.php");
         <div class="card m-b-0" id="messages-main" style="box-shadow:0 0 40px 1px #c9cccd;">
             <div class="ms-menu card" id="ms-scrollbar" style="box-shadow:0 0 40px 1px #c9cccd; height: 547px">
                 <div class="ms-block">
-                    <div class="ms-user"><img src="/doctalk/pics/anuhya.jpg" alt="">
+                    <div class="ms-user"><img src="pics/anuhya.jpg" alt="">
+
                         <h3 class="q-title" align="center">Dr. Anuhya Uppula <br/></h3>
                         <h6 class="q-title hidden" align="center"><b>5</b> New Messages <br/></h6>
                     </div>
                     <div class="ms-block hidden"><a class="btn btn-primary btn-block ms-new" href="#"><span class="glyphicon glyphicon-envelope"></span>&nbsp; New Message</a></div>
                     <hr/>
                     <h4 style="padding: 10px 25px 10px 20px">Your Patients</h4>
+
                     <div class="listview lv-user m-t-20">
                     </div>
                 </div>
@@ -43,7 +45,8 @@ require_once("shared.php");
                         <div class="lvh-label">
                         </div>
                         <ul class="lv-actions actions list-unstyled list-inline">
-                            <li class="hidden"><a data-toggle="dropdown" href="#" data-toggle="tooltip" data-placement="left" title="Tooltip on left"><span class="glyphicon glyphicon-trash"></span></a>
+                            <li class="hidden"><a data-toggle="dropdown" href="#" data-toggle="tooltip" data-placement="left" title="Tooltip on left"><span
+                                        class="glyphicon glyphicon-trash"></span></a>
                                 <ul class="dropdown-menu user-detail" role="menu">
                                     <li><a href="">Delete Messages</a></li>
                                 </ul>
@@ -61,10 +64,9 @@ require_once("shared.php");
         </div>
     </div>
 </div>
-</div></div></section>
-<script src="/doctalk/css/jquery.js"></script>
-<script src="/doctalk/css/bootstrap.min.js"></script>
+<script src="css/jquery.js"></script>
+<script src="css/bootstrap.min.js"></script>
 <script src="//cdn.pubnub.com/pubnub.min.js"></script>
-<script src="/doctalk/css/js.js"></script>
+<script src="css/js.js"></script>
 </body>
 </html>
